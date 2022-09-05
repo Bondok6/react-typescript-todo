@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f74c0;
+  font-family: 'Neucha', cursive;
+}
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+}
