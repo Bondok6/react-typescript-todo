@@ -9,10 +9,19 @@ interface TodoListProps {
 
 const TodoList = ({ todos, setTodos }: TodoListProps) => {
   return (
-    <div className="todos">
-      {todos.map((todo) => (
-        <SingleTodo todo={todo} setTodos={setTodos} key={todo.id} />
-      ))}
+    <div className="container">
+      <div className="todos">
+        <span className="todos__heading">Active Tasks</span>
+        {todos.map((todo) => (
+          <SingleTodo todo={todo} setTodos={setTodos} key={todo.id} />
+        ))}
+      </div>
+      <div className="todos remove">
+        <span className="todos__heading">Completed Tasks</span>
+        {todos.map((todo) => (
+          <SingleTodo todo={todo} setTodos={setTodos} key={todo.id} />
+        ))}
+      </div>
     </div>
   );
 };
