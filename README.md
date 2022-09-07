@@ -11,10 +11,10 @@
 
 ## Additional Used
 
-- React-icons
+- react-beautiful-dnd
+- react-icons
 - Vercel (Deploy)
 - ES6 
-- Linter
 
 ## Live Demo
 
