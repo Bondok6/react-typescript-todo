@@ -1,6 +1,6 @@
 # Next Todo
 
-> #### Re-built a Todo App with React and TypeScript for managing the daily tasks and keeping track of tasks during the day 💯
+> #### Re-built a Todo App for managing the daily tasks and keeping track of tasks during the day with new features such as Drage and Drop build with React.js and TypeScript. 💯
 
 
 
@@ -11,14 +11,14 @@
 
 ## Additional Used
 
+- React-icons
 - Vercel (Deploy)
 - ES6 
-- React-icons
 - Linter
 
 ## Live Demo
 
-[Todo App Link]()
+[Todo App Link](https://react-typescript-todo-nu.vercel.app/)
 
 
 ## Getting Started
