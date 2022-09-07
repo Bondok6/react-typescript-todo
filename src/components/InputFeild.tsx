@@ -15,6 +15,10 @@ const InputFeild = ({ todo, setTodo, addTodo }: InputFeildProps) => {
       className="input"
       onSubmit={(e) => {
         addTodo(e, todo);
+        // clear input field
+        if (inputRef.current) {
+          inputRef.current.value = '';
+        }
         inputRef.current?.blur();
       }}
     >
