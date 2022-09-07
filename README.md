@@ -1,6 +1,6 @@
 # Next Todo
 
-> #### Re-built a Todo App for managing the daily tasks and keeping track of tasks during the day with new features such as Drage and Drop build with React.js and TypeScript. 💯
+> #### Re-build a Todo App for managing the daily tasks and keeping track of tasks during the day with new features such as Drage and Drop build with React.js and TypeScript. 💯
 
 
 
