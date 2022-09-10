@@ -13,7 +13,7 @@
 
 - react-beautiful-dnd
 - react-icons
-- Vercel (Deploy)
+- Vercel 
 - ES6 
 
 ## Live Demo
